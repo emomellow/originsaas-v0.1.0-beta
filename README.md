@@ -1,73 +1,74 @@
-🚀 OriginSaaS - Modern SaaS Starter Template
-OriginSaaS, en güncel teknolojilerle donatılmış, ölçeklenebilir ve yüksek performanslı bir SaaS başlangıç şablonudur. Next.js 16 ve Prisma 7 gibi en yeni sürümler kullanılarak, kurumsal standartlarda bir altyapı sunar.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=6366f1&height=200&section=header&text=OriginSaaS%20by%20Softably&fontSize=60&animation=fadeIn&fontAlignY=35" width="100%" />
 
-🛠 Teknolojiler
-Bu proje, modern web geliştirme dünyasının en güçlü araçlarını bir araya getirir:
+  <p align="center">
+    <img src="https://img.shields.io/badge/Powered%20By-Softably-6366f1?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Status-Beta%20v0.1.0-orange?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  </p>
 
-Framework: Next.js 16 (App Router) - Turbopack desteğiyle en hızlı geliştirme deneyimi.
+  <h3>🚀 Softably Güvencesiyle: Modern & Sürekli Güncellenen SaaS Template</h3>
 
-Auth: Clerk - Güvenli kimlik doğrulama, kullanıcı yönetimi ve hazır UI bileşenleri.
+  <p align="center">
+    <strong>OriginSaaS</strong>, <a href="https://github.com/softably"><b>Softably</b></a> ekibi tarafından en güncel teknolojilerle geliştirilen, 
+    <span style="color:#f59e0b; font-weight:bold;">aktif olarak güncellenen</span> 
+    ve ölçeklenebilir bir <strong>SaaS başlangıç şablonudur</strong>.
+    <br />
+    Proje; <b>Next.js 16</b> ve <b>Prisma 7</b> altyapısı ile <b>Softably</b> standartlarında bir performans sunar.
+  </p>
 
-Database & ORM: Prisma 7 - Tip güvenli PostgreSQL yönetimi ve modern Driver Adapter yapısı.
+  <blockquote style="padding: 10px; background-color: #f0fdf4; border-left: 5px solid #22c55e; color: #16a34a;">
+    🔄 <b>SOFTABLY TAAHHÜDÜ:</b> Bu proje Softably ekibi tarafından düzenli olarak denetlenmekte, yeni özellikler ve güvenlik iyileştirmeleri eklenmektedir.
+  </blockquote>
+</div>
 
-Database: PostgreSQL - İlişkisel veri yönetimi.
+---
 
-Styling: Tailwind CSS & Shadcn/UI - Modern, hızlı ve özelleştirilebilir arayüz bileşenleri.
+### 🛠 Kullanılan Teknolojiler
 
-Icons: Lucide React - Esnek ve hafif ikon kütüphanesi.
+<table width="100%">
+  <tr>
+    <td width="50%"><strong>Framework:</strong> <img src="https://img.shields.io/badge/Next.js%2016-0ea5e9?style=flat-square" /></td>
+    <td width="50%"><strong>Auth:</strong> <img src="https://img.shields.io/badge/Clerk-22c55e?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td><strong>ORM:</strong> <img src="https://img.shields.io/badge/Prisma%207-f43f5e?style=flat-square" /></td>
+    <td><strong>Database:</strong> <img src="https://img.shields.io/badge/PostgreSQL-a855f7?style=flat-square" /></td>
+  </tr>
+  <tr>
+    <td><strong>Design System:</strong> <img src="https://img.shields.io/badge/Softably_Design-38bdf8?style=flat-square" /></td>
+    <td><strong>UI Library:</strong> <img src="https://img.shields.io/badge/Shadcn%2FUI-000000?style=flat-square" /></td>
+  </tr>
+</table>
 
-✨ Özellikler
-🔒 Gelişmiş Kimlik Doğrulama: Clerk ile giriş yapma, kayıt olma ve profil yönetimi.
+---
 
-📊 Dinamik Dashboard: Veritabanından gelen gerçek zamanlı istatistikler ve grafikler.
+### ✨ Öne Çıkan Özellikler
 
-🌗 Karanlık Mod: next-themes ile tam uyumlu Dark/Light mode desteği.
+* 🔒 **Gelişmiş Kimlik Doğrulama:** Clerk ile kurumsal seviyede güvenli giriş ve profil yönetimi.
+* 📊 **Softably Dashboard:** Veritabanından gelen gerçek zamanlı verilerle optimize edilmiş yönetim paneli.
+* 🌗 **Smart Themes:** `next-themes` ile sistemle tam uyumlu Dark/Light mode deneyimi.
+* ⚡ **Performance First:** Next.js Route Handlers ve Turbopack ile en düşük gecikme süresi.
+* 🔗 **Webhook Sync:** Kullanıcı hareketlerini veritabanına anında işleyen Softably özel senkronizasyon yapısı.
 
-⚡ Hızlı API Yapısı: Next.js Route Handlers ile optimize edilmiş backend süreçleri.
+---
 
-🔗 Webhook Entegrasyonu: Clerk üzerindeki kullanıcı olaylarını (kayıt, güncelleme) anında PostgreSQL'e senkronize eden güvenli Webhook yapısı.
+### 🚀 Başlangıç & Kurulum
 
-📱 Responsive Tasarım: Tüm cihazlarda mükemmel görünen mobil öncelikli arayüz.
+```bash
+# 1. Projeyi Klonlayın
+git clone [https://github.com/emomellow/OriginSaaS-v0.1.0-beta.git](https://github.com/emomellow/OriginSaaS-v0.1.0-beta.git)
 
-🚀 Başlangıç
-1. Projeyi Klonlayın
-Bash
-
-git clone https://github.com/kullanici_adin/originsaas.git
-cd originsaas
-2. Bağımlılıkları Yükleyin
-Bash
-
+# 2. Klasöre Girin ve Bağımlılıkları Yükleyin
+cd OriginSaaS-v0.1.0-beta
 npm install
-3. Ortam Değişkenlerini Ayarlayın
-.env.example dosyasını .env olarak kopyalayın ve kendi anahtarlarınızı ekleyin:
 
-Bash
-
+# 3. Ortam Değişkenlerini Ayarlayın
 cp .env.example .env
-4. Veritabanını Yapılandırın
-Prisma şemasını veritabanına uygulayın ve client'ı oluşturun:
 
-Bash
-
+# 4. Veritabanını Yapılandırın
 npx prisma generate
 npx prisma db push
-5. Geliştirme Sunucusunu Başlatın
-Bash
 
+# 5. Projeyi Softably Kalitesinde Başlatın
 npm run dev
-http://localhost:3000 adresinden projeyi görüntüleyebilirsiniz.
-
-📁 Proje Yapısı
-src/app: Next.js App Router sayfaları ve API rotaları.
-
-src/components: Tekrar kullanılabilir UI bileşenleri (Shadcn/UI).
-
-src/core/services: Veritabanı sorguları ve iş mantığı (Service Layer).
-
-src/lib: Prisma Client ve diğer kütüphane yapılandırmaları.
-
-prisma/: Veritabanı şeması ve migration dosyaları.
-
-🛡 Güvenlik Notu
-Bu projedeki hassas veriler (API anahtarları, DB şifreleri) .env dosyasında tutulur ve asla Git üzerinde paylaşılmaz. Örnek yapı için .env.example dosyasına bakınız.
